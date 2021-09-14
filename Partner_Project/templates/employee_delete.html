@@ -1,0 +1,15 @@
+
+
+{% extends 'base.html' %}
+
+{% block title %}
+     Employee Delete
+{% endblock %}
+
+{% block body %}
+     {% if employee %}
+         <h2>{{ employee }}</h2>
+     {% else %}
+        <h2>{{ error }}</h2>
+     {% endif %}
+{% endblock %}
